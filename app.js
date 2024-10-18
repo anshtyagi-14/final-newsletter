@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('dotenv').config();             //done only to secure the api key 
 const express=require("express");
 const bodyParser=require("body-parser");
 const request=require("request");
